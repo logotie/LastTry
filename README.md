@@ -1,3 +1,4 @@
+
 # LastTry
 
 [![Build Status](https://travis-ci.org/egordorichev/LastTry.svg?branch=master)](https://travis-ci.org/egordorichev/LastTry)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) [![codebeat badge](https://codebeat.co/badges/92d0acff-0fd0-438b-b7a8-f40390f995df)](https://codebeat.co/projects/github-com-egordorichev-lasttry-dev) [![Code Climate](https://codeclimate.com/github/egordorichev/LastTry.png)](https://codeclimate.com/github/egordorichev/LastTry)
@@ -20,6 +21,13 @@ Compile project:
 ```bash
 ./gradlew clean build dist
 ```
+
+### Building using an IDE:
+When using an IDE, on first run of the game an error will be displayed.
+Usually along the lines of:  '..... a file is missing'.
+To fix please follow the steps listed:
+[https://stackoverflow.com/questions/22822767/file-not-found-when-running-new-libgdx-project](https://stackoverflow.com/questions/22822767/file-not-found-when-running-new-libgdx-project)
+Changing the folder to the applicable 'assets' folder.
 
 ### Running
 
